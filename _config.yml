@@ -10,10 +10,15 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-admin
+
+sass:
+  sass_dir: _sass
+  styles: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
